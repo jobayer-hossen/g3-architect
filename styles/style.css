@@ -220,8 +220,11 @@
     justify-content: space-around;
    
 
-    
 }
+    /* ----------------------------------
+    project/personal added section style
+    ---------------------------------- */
+    
 .project-name{
     text-align: center;
     color: black;
