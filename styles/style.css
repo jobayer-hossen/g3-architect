@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Work+Sans:wght@700&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+    
+}
+.text-fancy-style{
+    color: orange;
+}
+        /*==============
+            nav style
+            ============== */
+.nav-var{
+     padding: 10px 130px;
+    display: flex;
+    background-color: #fff3e6;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-btn{
+    display: flex;
+}
+.nav-btn ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.nav-btn a{
+    text-decoration: none;
+}
+            /*=================
+                banner style 
+                ================*/
+.banner{
+    height: 130vh;
+    text-align: center;
+    background-color: #fff3e6;
+    padding: 60px 0px;
+}
+.banner-title{
+    font-size: 40px;
+}
+.banner-description{
+    font-size: 15px;
+    color: #727272;
+}
+        /* ====================
+            primary button
+         ===================*/
+.explore-btn{
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 7px;
+    border: 0px;
+    background-color: orange;
+}
+.banner img{
+    width: 1100px;
+    height: 100%;
+    padding-top: 15px;
+}
+
+.team-section{
+    display: flex;
+    padding: 80px 130px;
+    justify-content: space-between;
+    align-items: center;
+}
+.team-title{
+    font-size: 40px;
+}
+
+.team-description{
+    font-size: 15px;
+    color: #727272;
+}
+.team-image img{
+    width: 250px;
+    height: 250px;
+}
+.team-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    
+}
+.team-desc{
+   padding-left: 70px;
+  
+}
+
+.person{
+    height: 120vh;
+    padding: 5px 130px;
+    
+}
+.person-image img{
+    width: 550px;
+    height: 800px;
+}
+.person-section{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.person-title-head{
+    font-size: 30px;
+    border-left: 5px solid red;
+    padding-left: 10px;
+    
+}
+.person-description{
+    font-size: 12px;
+    color: #727272;
+}
+.person-title{
+    font-size:16px ;
+}
+.person-box{
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    padding: 10px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2) ;
+    border-radius: 9px;
+    
+}
+
+.year-btn{
+    background-color:orange;
+    border: none;
+    border-radius: 6px;
+    padding: 0px 40px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 380%;
+    left: 42%;
+
+}
+
+.fact-section{
+    padding: 150px 130px 0px 130px;
+}
+.fact-botom-head{
+    padding: 80px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 80px;
+    text-align: center;
+
+}
+.fact-botom{
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid orangered;
+    cursor: pointer;
+   
+}
+.fact-botom:hover{
+    background-color: aqua;
+}
+
+
+.sponsor{
+    padding: 20px 130px ;
+    text-align: center;
+}
+.sponsor-logo{
+    display: flex;
+    flex-wrap: wrap;
+    filter: grayscale();
+    padding: 10px 130px;
+    justify-content: space-around;
+   
+
+    
+}
+.project-name{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.projects{
+    padding: 20px 130px;
+    display: grid;
+    grid-gap: 60px;
+    grid-template-columns: repeat(3 , 1fr);
+    
+}
+
+.project{
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.4) ;
+    cursor: pointer;
+   transition: 1s;
+}
+.project:hover{
+    background: linear-gradient( white, #ffec17 , #ed1c94,rgba(255, 255, 255, 0.35));
+     transform: scale(1.1) ;
+    z-index: 2;
+}
+.project img{
+    border-radius: 5px;
+}
+
+.footer-section{
+    padding:50px 130px;
+    
+}
+.footer-content{
+    text-align: center;
+    background-color: #fff3e6;
+    padding: 30px 0px;
+}
